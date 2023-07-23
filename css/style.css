@@ -1,0 +1,89 @@
+{
+	margin: 0;
+	padding: 0;
+} 
+body {
+	max-width:1000px;
+	float: none;
+	margin: auto;
+	padding: 0px;
+}
+p {
+	padding: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 0.6cm;
+}
+a {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 1cm;
+}
+header {
+	width: 100%
+	display: inline-block;
+	padding: 0px;
+}
+	
+main {
+	width: 30%;
+	float: left;
+	display: block;
+	min-height: 300px;
+	background-color: #0E191D;
+}
+aside {
+	width: 60%;
+	float: right;
+	display: block;
+	min-height: 100px;
+}
+footer {
+	width: 100%;
+	display: inline-block;
+	min-height: 10px
+}
+
+/* Menu css */
+.topnav {
+  overflow: hidden;
+  background-color: #4D8C57;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: green;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+	
